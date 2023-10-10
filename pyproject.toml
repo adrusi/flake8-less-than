@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flake8-less-than"
+version = "0.1.0"
+description = ""
+authors = ["Autumn Russell <autumn@adrusi.com>"]
+license = "ISC"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "*"
+
+[tool.poetry.plugins."flake8.extension"]
+"LT" = "flake8_less_than.checker:LessThanChecker"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
