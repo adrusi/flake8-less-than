@@ -5,6 +5,11 @@ description = ""
 authors = ["Autumn Russell <autumn@adrusi.com>"]
 license = "ISC"
 readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: ISC License",
+    "Operating System :: OS Independent",
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
